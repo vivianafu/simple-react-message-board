@@ -1,0 +1,73 @@
+.board__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .message__wrapper{
+      background-color: rgb(1, 82, 133);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding:16px 50px;
+      min-width: 300px;
+  
+      &:not(:first-child){
+        margin-top: 8px;
+        background-color: rgb(232, 243, 250);
+      }
+    }
+  
+    .reply__title{
+      margin-top: 16px;
+    }
+  
+    .reply__message{
+      min-height:20px;
+      width: 100%;
+      border-bottom: 1px solid  rgb(255, 255, 255);
+      text-align: start;
+      p{
+        color:rgb(150, 150, 150)
+      }
+    }
+  
+    h3{
+      align-self: flex-start;
+      margin:0;
+      color:rgb(118, 183, 199);
+    }
+  
+    p{
+      margin:4px 0;
+      font-size: 0.8rem;
+      align-self: flex-start;
+    }
+  
+    textarea{
+      font-family: sans-serif;
+      margin:8px 0;
+      min-width: 200px;
+      min-height: 20px;
+      width:calc(100% - 40px);
+      outline: none;
+      padding: 6px 16px;
+      resize: vertical;
+      border: 1px solid rgb(182, 182, 182);
+      border-radius: 4px;
+    }
+  
+    textarea:focus{
+      border-color: rgb(118, 183, 199);
+    }
+  
+    button{
+      padding: 8px 16px;
+      border-radius: 4px;
+      border: none;
+      cursor: pointer;
+      background-color: rgb(118, 183, 199);
+      color:#fff;
+      max-width: 80px;
+      align-self: flex-end;
+    }
+  }

@@ -1,0 +1,81 @@
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "material-icon-theme",
+    "eslint.validate": ["javascript", "html", "javascriptreact", "typescript", "typescriptreact", "vue"],
+    "eslint.options": {
+        "extensions": [".js", ".ts", ".tsx"]
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true,
+        "source.sortMembers": true,
+        "source.fixAll.eslint": true
+    },
+    "prettier.requireConfig": true,
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "cSpell.words": [
+        "attachs",
+        "Catg",
+        "citys",
+        "Classfield",
+        "Deletable",
+        "Depts",
+        "dtree",
+        "dtrees",
+        "jointable",
+        "Kang",
+        "KDAUTH",
+        "kdgw",
+        "KDPMS",
+        "Mlabel",
+        "Mvalue",
+        "Nume",
+        "officedocument",
+        "opendocument",
+        "openxmlformats",
+        "pmmmwh",
+        "pmsap",
+        "pmscc",
+        "Pmsl",
+        "pmsla",
+        "Pmsu",
+        "reduxjs",
+        "Showable",
+        "spreadsheetml",
+        "taxs",
+        "Xhttp",
+        "ymlabel",
+        "ymvalue",
+        "YYYMMDD",
+        "YYYMMDDHHMM",
+        "YYYMMDDHHMMSS"
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
